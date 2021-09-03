@@ -1,9 +1,6 @@
 <div align="center">
-<<<<<<< HEAD
   <img src="src/assets/images/128.png" alt="WhatsApp Web Logo" width="150">
-=======
-  <img src="src/WhatsApp-Web-crx/assets/images128.png" alt="WhatsApp Web Logo" width="150">
->>>>>>> c25db76af618ae9639facb1fc7ebeb7430fbbfe5
+  
   <h1>Welcome to the WhatsApp Web repository</h1>
   <strong>Any contribution would be appropriated 💻</strong>
   <h6>Made with ❤️ by developers for developers and productive users🧑</h6>
