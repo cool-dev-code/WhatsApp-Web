@@ -36,32 +36,22 @@
 
 It does not read your messages or expose your privacy
 
-At daily.dev we care about:
+We care about:
 
-* 🌟 **Maintenance**: We are working continuously to introduce new features, fix bugs, and improve user experience — 40+ releases on average in a year.
-* ♾ **Being relevant**: daily.dev's article feed is constantly updated. Discover brand-new content as soon as it is published.
-* 🧵 **Open-source**: daily.dev is completely open-source. We believe in transparency and giving back to the community, so we decided to publish the source code to GitHub. Suggest a feature, report a bug, or even contribute. Everyone is welcome!
+* 🌟 **Maintenance**: We are working to introduce new features, fix bugs, and improve user experience.
+* 🧵 **Open-source**: This extension is completely open-source. We believe in transparency and giving back to the community, so we decided to publish the source code to GitHub. Suggest a feature, report a bug, or even contribute. Everyone is welcome!😊
 
-<p align="center">
-    <img src="/assets/daily-cover-photo.png" alt="daily.dev" width="550">
-    <br>
-    <a href="https://www.youtube.com/watch?v=Oso6dYXw5lc"><strong>📺 Watch Intro Video → </strong></a>
-</p>
+## 📌 Get WhatsApp Web Extension
 
-## 📌 Get daily.dev
-
-daily.dev is currently available for Google Chrome, Microsoft Edge, and Firefox. There's also a progressive web app (PWA) for mobile devices. Get it now on:
-
+This extension is currently available for Google Chrome, and Microsoft Edge. 
 <p align="center">
     <a href="https://r.daily.dev/chrome">
     <img src="https://img.shields.io/badge/%20-Chrome-red?logo=google-chrome&logoColor=white" alt="Download for Chrome" />
     </a>
+	
     <a href="https://microsoftedge.microsoft.com/addons/detail/dailydev-news-for-busy/cbdhgldgiancdheindpekpcbkccpjaeb">
     <img src="https://img.shields.io/badge/%20-Edge-blue?logo=microsoft-edge&logoColor=white" alt="Download for Edge" />
-    </a>
-    <a href="https://addons.mozilla.org/en-US/firefox/addon/daily/">
-    <img src="https://img.shields.io/badge/%20-Firefox-orange?logo=mozilla&logoColor=white" alt="Download for Firefox" />
-    </a>
+	
     <a href="http://go.daily.dev/">
     <img src="https://img.shields.io/badge/%20-Mobile-502ab0" alt="Download for Mobile" />
     </a>
@@ -69,67 +59,23 @@ daily.dev is currently available for Google Chrome, Microsoft Edge, and Firefox.
 
 ## 📯 Philosophy
 
-We, as developers, spend a lot of time looking for valuable articles and blog posts. We believe that searching for content isn't a thing developers should do anymore. It's hard to catch up with all the latest happenings — coz it's spread on so many blogs and consumes tons of time.
+We, as developers, spend a lot of time looking for valuable articles and blog posts. Please Fork 🍴 this repository to contribute us.
 
 That's why built daily.dev, to help you:
 
+* 🖥 Chat on big screen
 * 👨‍💻 Stay up-to-date
 * ⏳Save time
-* 📰 Discover articles in one click
 
-## 🌲 daily.dev Projects
+## 🚀 Installation Method of WhatsApp-Web Extension
 
-daily.dev might look simple on the surface but actually, it is powered by a complex and robust system of different applications. It contains several services, some are big, others are micro and easy to maintain. Below is the list of different projects that we maintain under daily.dev.
+Let's setup WhatsApp-Web locally. Follow up the setups below to quickly get started.
 
-### 🙌 Community & Docs
-
-*  [daily](https://github.com/dailydotdev/daily) - This is the repository you are currently at. It serves as a central place for all the projects. It contains documentation, community ideas, suggestions, and whatnot.
-
-
-### 🎨 Frontend
-
-* [apps](https://github.com/dailydotdev/apps) - Monorepo with all the frontend related projects since daily.dev 3.0. This includes both the extension and the webapp.
-
-### 🏗 Backend
-
-* [daily-api](https://github.com/dailydotdev/daily-api) - A monolith API service, being slowly split apart to different services. It manages content-related data such as posts, feeds, tags, etc.
-* [daily-gateway](https://github.com/dailydotdev/daily-gateway) - API gateway which receives all traffic and forwards it to the relevant services after authenticating and authorizing the request.
-* [daily-monetization](https://github.com/dailydotdev/daily-monetization) - Serving ads from different providers including CodeFund, BuySellAds and self-hosted campaigns.
-* [daily-scraper](https://github.com/dailydotdev/daily-scraper) - Scraping webpages for relevant information.
-* [daily-functions](https://github.com/dailydotdev/daily-functions) - Monorepo with Cloud Functions which mostly take care of ingesting new content but also web push and others.
-
-
-
-## 🏛 Architecture
-
-<p align="center">
-    <img src="/assets/architecture/overview.svg" alt="Daily architecture" width="700">
-</p>
-
-
-## 🗂 Tech Stack
-
-Below is a list of technologies we use at daily.dev.
-
-*  🎨 **Frontend:** Preact
-* 🌳 **Services:** Node.js & Golang
-* ☁️ **Cloud:** Google Cloud Platform Pub/Sub | SQL | Serverless
-* ♾ **CI/CD:** CircleCI
-* 🎩 **Deployment:** Pulumi
-* 🎛 **Data Feed:** Superfeedr
-* 📨 **Email Service:** SendGrid
-* 🚨 **Push Notifications:** OneSignal
-
-
-## 🚀 Running daily.dev Locally
-
-Let's setup daily.dev locally. First you need to setup the services required to run the daily.dev applications, then you can run the application you want. Follow up the setups below to quickly get started.
-
-## ⚙️ Setting Up Daily Services
+## ⚙️ Setting Up in Chrome
 
 ### → STEP #0
 
-* Go through the [projects description](#-daily-projects) and [the architecture](#-architecture) to familiarize yourself with the system and its components.
+* Go to [Chrome Extensions page](chrome://extensions/)
 * Make sure docker-compose is installed on your machine. Take a look at the [official guide](https://docs.docker.com/compose/install/) for installation. After installation, run the following command in your terminal for a double check.
 
 ```sh
