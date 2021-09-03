@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="/assets/logo.png" alt="Daily Logo" width="150">
-  <h1>Welcome to the daily.dev repository</h1>
-  <strong>The latest dev news delivered to your new tab 👩🏽‍💻</strong>
-  <h6>Made with ❤️ by developers for developers</h6>
+  <img src="/assets/images/128.png" alt="WhatsApp Web Logo" width="150">
+  <h1>Welcome to the WhatsApp Web repository</h1>
+  <strong>Any contribution would be appropriated 💻</strong>
+  <h6>Made with ❤️ by developers for developers and productive users🧑</h6>
 </div>
 <br>
 
@@ -29,11 +29,11 @@
 
 
 
-## 🗞 daily.dev
+## 🗞 About
 
-> daily.dev is an open-source browser extension that helps developers stay updated with the latest programming news 👩‍💻
+> WhatsApp-Web is an open-source Chrome browser extension which help users to switch full screen
 
-It collects and ranks articles from hundreds of unique publications to help developers stay updated with the latest tech news. You can bookmark posts, sync your data across devices, and read later whenever you want. It works offline and has a progressive web app (PWA) for mobile.
+It does not read your messages or expose your privacy
 
 At daily.dev we care about:
 
