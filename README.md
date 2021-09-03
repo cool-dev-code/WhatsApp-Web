@@ -61,7 +61,7 @@ This extension is currently available for Google Chrome, and Microsoft Edge.
 
 We, as developers, spend a lot of time looking for valuable articles and blog posts. Please Fork 🍴 this repository to contribute us.
 
-That's why built daily.dev, to help you:
+That's why built WhatsApp-Web, to help you:
 
 * 🖥 Chat on big screen
 * 👨‍💻 Stay up-to-date
@@ -76,7 +76,8 @@ Let's setup WhatsApp-Web locally. Follow up the setups below to quickly get star
 ### → STEP #0
 
 * Go to chrome://extensions/
-* Make sure docker-compose is installed on your machine. Take a look at the [official guide](https://docs.docker.com/compose/install/) for installation. After installation, run the following command in your terminal for a double check.
+* On the top right corner turn on Developer Mode
+* Click Load unpacked and select src (source folder)
 
 ```sh
 docker-compose -v
