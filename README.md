@@ -75,7 +75,7 @@ Let's setup WhatsApp-Web locally. Follow up the setups below to quickly get star
 
 ### → STEP #0
 
-* Go to <a href="chrome://extensions"><img src="https://img.shields.io/badge/%20-Chrome-red?logo=google-chrome&logoColor=white" alt="Download for Chrome" /></a>
+* Go to <a href="chrome://extensions/"><img src="https://img.shields.io/badge/%20-Chrome-red?logo=google-chrome&logoColor=white" alt="Download for Chrome" /></a>
 * Make sure docker-compose is installed on your machine. Take a look at the [official guide](https://docs.docker.com/compose/install/) for installation. After installation, run the following command in your terminal for a double check.
 
 ```sh
